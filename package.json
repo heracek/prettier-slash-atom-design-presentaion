@@ -9,7 +9,8 @@
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge -p .",
     "export": "spectacle-renderer --delay 3000",
-    "start": "cross-env NODE_ENV=development node server.js"
+    "start": "cross-env NODE_ENV=development node server.js",
+    "prettier": "prettier --write ./.babelrc ./*.js ./**/*.js ./*.json ./**/*.json ./*.md ./**/*.md"
   },
   "author": "",
   "license": "MIT",
@@ -49,6 +50,7 @@
     "is-buffer": "^1.1.5",
     "markdown-loader": "^2.0.1",
     "node-libs-browser": "^2.0.0",
+    "prettier": "1.8.2",
     "raw-loader": "^0.5.1",
     "react-hot-loader": "^3.1.1",
     "react-transform-catch-errors": "^1.0.2",

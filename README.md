@@ -1,48 +1,45 @@
-# Spectacle Boilerplate
+# "Prettier / Atomic Design" Presentation
 
-## Contents
+by Tomáš Horáček (@heracek)
 
-- [Reference](#reference)
-- [Getting Started](#getting-started)
-- [Build & Deployment](#build-deployment)
+## Requirements
 
-## Reference
+* [`nvm`](https://github.com/creationix/nvm) with Node.js version based on `./.nvmrc`
+* [`yarn`](https://yarnpkg.com/)
 
-The Spectacle core API is available at [https://github.com/FormidableLabs/spectacle/blob/master/README.md](https://github.com/FormidableLabs/spectacle/blob/master/README.md).
-
-## Getting Started
-
-After downloading the boilerplate, your first order of business is to open a terminal and run 
-```bash
-yarn
-```
-or 
-```bash
-npm install
-```
-if you're about that life.
-
-Next, run 
-```bash
-rm -R .git
-```
-to remove the existing version control.
-
-Then, to start up the local server, run
-```bash
-npm start
+```sh
+nvm use
+npm install --global yarn
 ```
 
-Open a browser and hit [http://localhost:3000](http://localhost:3000), and we are ready to roll.
+## Install
+
+```sh
+yarn install
+```
+
+## Run Prettier on All Code
+
+```sh
+yarn prettier
+```
+
+## Run
+
+```sh
+yarn start
+```
 
 ## Build & Deployment
 
 Building the dist version of the project is as easy as running
+
 ```bash
-npm run build
+yarn build
 ```
 
-If you want to deploy the slideshow to surge, run 
+If you want to deploy the slideshow to surge, run
+
 ```bash
-npm run deploy
+yarn deploy
 ```

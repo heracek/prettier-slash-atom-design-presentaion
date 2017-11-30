@@ -2,6 +2,9 @@
 singleQuote: true
 trailingComma: all
 
-- files: "gulp/*.js"
+overrides:
+- files:
+    - "./webpack.*.js"
+    - "./server.js"
   options:
     trailingComma: es5
