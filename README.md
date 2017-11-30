@@ -4,7 +4,8 @@ by Tomáš Horáček (@heracek)
 
 ## Requirements
 
-* [`nvm`](https://github.com/creationix/nvm) with Node.js version based on `./.nvmrc`
+* [`nvm`](https://github.com/creationix/nvm) with Node.js version based on
+  `./.nvmrc`
 * [`yarn`](https://yarnpkg.com/)
 
 ```sh
